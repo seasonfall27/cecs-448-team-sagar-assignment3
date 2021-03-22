@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Calibri';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fff;
+}
+
+p {
+    line-height: 1.0;
+    margin-bottom: 35px;
+}
+
+section {
+    margin: 20px 20px 20px 50px;
+    height: 800px;
+    width: 1480px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+img {
+    border-radius: 50%;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.name {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 36px;
+    color: #000;
+    text-shadow: 2px 2px #fff;
+    letter-spacing: 3px;
+}
+
+.header {
+    text-align: left;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 18px;
+    color: #000;
+}
+
+hr.solid {
+    border-top: 1px solid #000;
+}
+
+/* * * * * * * * * * scrollbar * * * * * * * * * */
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #aaa;
+    background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #97c1a9;
+}
+
+/* * * * * * * * * * navigation bar * * * * * * * * * */
+#nav a {
+    margin: 20px 20px 20px 20px;
+    position: fixed;
+    left: -100px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 120px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    border-radius: 0 10px 10px 0;
+}
+
+#nav a:hover {
+    left: -25px;
+}
+
+#j {
+    top: 20px;
+    background-color: #d4f0f0;
+}
+
+#s {
+    top: 80px;
+    background-color: #8fcaca;
+}
+
+#a {
+    top: 140px;
+    background-color: #cce2cb;
+}
+
+#h {
+    top: 200px;
+    background-color: #b6cfb6;
+}
+
+#k {
+    top: 260px;
+    background-color: #97c1a9;
+}
+
+/* * * * * * * * * * julia persona * * * * * * * * * */
+.julia {
+    background-color: #d4f0f0;
+}
+
+.julia-content {
+    margin: 20px;
+    align-content: center;
+    text-align: justify;
+}
+
+.julia .left {
+    float: left;
+    margin: 10px;
+    border: 3px solid #fff;
+    width: 350px;
+    padding: 20px;
+}
+
+.julia .center {
+    float: left;
+    margin: 10px;
+    border: 3px solid #fff;
+    width: 490px;
+    padding: 20px;
+}
+
+.julia .right {
+    float: left;
+    margin: 10px;
+    border: 3px solid #fff;
+    width: 540px;
+    padding: 20px;
+}
+
+/* * * * * * * * * * steven persona * * * * * * * * * */
+.steven {
+    background-color: #8fcaca;
+}
+
+.steven-content {
+    margin: 0px;
+}
+
+/* * * * * * * * * * autumn persona * * * * * * * * * */
+.autumn {
+    background-color: #cce2cb;
+}
+
+.autumn-content {
+    margin: 0px;
+}
+
+/* * * * * * * * * * hoang persona * * * * * * * * * */
+.hoang {
+    background-color: #b6cfb6;
+}
+
+.hoang-content {
+    background-color: #b6cfb6;
+    margin: 0px;
+}
+
+/* * * * * * * * * * kenneth persona * * * * * * * * * */
+.kenneth {
+    background-color: #97c1a9;
+}
+
+.kenneth-content {
+    background-color: #97c1a9;
+    margin: 0px;
+}
