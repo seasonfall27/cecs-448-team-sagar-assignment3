@@ -167,7 +167,33 @@ hr.solid {
 }
 
 .autumn-content {
-    margin: 0px;
+    margin: 20px;
+    align-content: center;
+    text-align: justify;
+}
+
+.autumn .left {
+    float: left;
+    margin: 10px;
+    border: 3px solid #fff;
+    width: 350px;
+    padding: 20px;
+}
+
+.autumn .center {
+    float: left;
+    margin: 10px;
+    border: 3px solid #fff;
+    width: 490px;
+    padding: 20px;
+}
+
+.autumn .right {
+    float: left;
+    margin: 10px;
+    border: 3px solid #fff;
+    width: 540px;
+    padding: 20px;
 }
 
 /* * * * * * * * * * hoang persona * * * * * * * * * */
