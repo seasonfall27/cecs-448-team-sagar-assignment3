@@ -54,6 +54,27 @@ hr.solid {
     border-top: 1px solid #000;
 }
 
+
+/* * * * * * * * * * scales * * * * * * * * * */
+.container {
+    width: 90%;
+    background-color: #ddd;
+    height: 21px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+}
+
+.scale {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    height: 19px;
+    border-radius: 10px;
+}
+
 /* * * * * * * * * * scrollbar * * * * * * * * * */
 ::-webkit-scrollbar{
     width: 10px;
@@ -239,4 +260,24 @@ hr.solid {
     border: 3px solid #fff;
     width: 540px;
     padding: 20px;
+}
+
+.drink_k {
+    width: 90%;
+    background-color: indianred;
+}
+
+.tech_k {
+    width: 75%;
+    background-color: darkorange;
+}
+
+.health_k {
+    width: 50%;
+    background-color: forestgreen;
+}
+
+.budget_k {
+    width: 40%;
+    background-color: skyblue;
 }
