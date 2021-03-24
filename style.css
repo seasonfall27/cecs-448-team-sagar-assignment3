@@ -175,11 +175,57 @@ hr.solid {
 
 /* * * * * * * * * * steven persona * * * * * * * * * */
 .steven {
-    background-color: #8fcaca;
+    background-color: #97c1a9;
 }
 
 .steven-content {
-    margin: 0px;
+    margin: 20px;
+    align-content: center;
+    text-align: justify;
+}
+
+.steven .left {
+    float: left;
+    margin: 10px;
+    border: 3px solid #fff;
+    width: 350px;
+    padding: 20px;
+}
+
+.steven .center {
+    float: left;
+    margin: 10px;
+    border: 3px solid #fff;
+    width: 490px;
+    padding: 20px;
+}
+
+.steven .right {
+    float: left;
+    margin: 10px;
+    border: 3px solid #fff;
+    width: 540px;
+    padding: 20px;
+}
+
+.drink_s {
+    width: 95%;
+    background-color: indianred;
+}
+
+.tech_s {
+    width: 65%;
+    background-color: darkorange;
+}
+
+.health_s {
+    width: 70%;
+    background-color: forestgreen;
+}
+
+.budget_s {
+    width: 65%;
+    background-color: skyblue;
 }
 
 /* * * * * * * * * * autumn persona * * * * * * * * * */
