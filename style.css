@@ -434,22 +434,22 @@ hr.solid {
 }
 
 .drink_h {
-    width: 80%;
+    width: 30%;
     background-color: #1c333c;
 }
 
 .tech_h {
-    width: 45%;
+    width: 90%;
     background-color: #31464e;
 }
 
 .health_h {
-    width: 20%;
+    width: 70%;
     background-color: #5a6e76;
 }
 
 .budget_h {
-    width: 90%;
+    width: 50%;
     background-color: #a4acaf;
 }
 
