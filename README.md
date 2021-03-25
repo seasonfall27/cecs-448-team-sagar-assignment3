@@ -12,7 +12,7 @@ The goal of this project is to create user personas for the website we have chos
 
 How to Run Instructions:
 
-Download the ZIP folder that contains the project files from the main branch.
-Locate ZIP and extract the files.
-Right click the personas.html file
-Click open to view in Google Chrome web browser
+1. Download the ZIP folder that contains the project files from the main branch.
+2. Locate ZIP and extract the files.
+3. Right click the personas.html file
+4. Click open to view in Google Chrome web browser
