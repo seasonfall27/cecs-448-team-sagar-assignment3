@@ -1,5 +1,5 @@
 # cecs-448-team-sagar-assignment3
-This project is for CECS 448 - User Interface Design: Assignment 3 - User Personas
+This project is for CECS 448 - User Interface Design: Assignment 3 - User Personas.
 Website chosen: https://dingtea.club/ - Southern California Ding Tea
 
 Lab Instructor: Sagar Wadha
