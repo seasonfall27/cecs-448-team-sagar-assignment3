@@ -195,6 +195,32 @@ hr.solid {
   float: left;
 }
 
+.grass {
+  background: url("images/grassjelly.png") 0 0px / 25px 25px no-repeat;
+  padding-left: 35px;
+  margin-left: 15px;
+  float: left;
+}
+
+.aloe {
+  background: url("images/aloe.png") 0 0px / 18px 18px no-repeat;
+  padding-left: 35px;
+  margin-left: 10px;
+  float: left;
+}
+
+.tea {
+  background: url("images/milktea.png") 0 -2px / 25px 25px no-repeat;
+  padding-left: 35px;
+  margin-left: 10px;
+}
+
+.milkshake {
+  background: url("images/milkshake.png") 0 -2px / 20px 25px no-repeat;
+  padding-left: 35px;
+  margin-left: 10px;
+}
+
 /* * * * * * * * * * julia persona * * * * * * * * * */
 .julia {
     background-image: linear-gradient(#d59090, #d07e7e, #d59090);
