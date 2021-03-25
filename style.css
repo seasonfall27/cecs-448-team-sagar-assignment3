@@ -150,9 +150,36 @@ hr.solid {
 }
 
 .crystalboba {
-  background: url("images/boba.png") 0 0px / 18px 18px no-repeat;
+  background: url("images/crystalboba.png") 0 0px / 18px 18px no-repeat;
   padding-left: 35px;
   margin-left: 10px;
+}
+
+.greentea {
+  background: url("images/greentea.png") 0 -2px / 25px 25px no-repeat;
+  padding-left: 35px;
+  margin-left: 10px;
+}
+
+.boba {
+  background: url("images/boba.png") 0 0px / 18px 18px no-repeat;
+  padding-left: 35px;
+  margin-left: 15px;
+  float: left;
+}
+
+.jelly {
+  background: url("images/lycheejelly.png") 0 0px / 18px 18px no-repeat;
+  padding-left: 35px;
+  margin-left: 15px;
+  float: left;
+}
+
+.eggpudding {
+  background: url("images/eggpudding.png") 0 0px / 25px 25px no-repeat;
+  padding-left: 35px;
+  margin-left: 10px;
+  float: left;
 }
 
 /* * * * * * * * * * julia persona * * * * * * * * * */
