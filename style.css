@@ -9,7 +9,10 @@ html {
 }
 
 body {
-    background-color: #fff;
+    background-color: #1e3b67;
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .p {
@@ -35,7 +38,7 @@ section {
     margin-bottom: 10px;
     padding: 20px;
     background-color: #fff;
-    padding: 4px;
+    padding: 3px;
 }
 
 .name {
@@ -55,14 +58,14 @@ section {
 }
 
 hr.solid {
-    border-top: 1px solid #000;
+    border-top: 1px solid #fff;
 }
 
 
 /* * * * * * * * * * scales * * * * * * * * * */
 .container {
     width: 90%;
-    background-color: #ddd;
+    background-color: #fff;
     height: 21px;
     border-radius: 10px;
     margin-left: 25px;
@@ -91,12 +94,12 @@ hr.solid {
  
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background: #aaa;
+    background: #adb9d1;
     background-clip: padding-box;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #97c1a9;
+    background: #6d87b8;
 }
 
 /* * * * * * * * * * navigation bar * * * * * * * * * */
@@ -119,27 +122,37 @@ hr.solid {
 
 #j {
     top: 20px;
-    background-color: #d4f0f0;
+    background-color: #d07e7e;
+    border: 2px solid #fff;
+    font-weight: 600;
 }
 
 #s {
     top: 80px;
-    background-color: #8fcaca;
+    background-color: #8a9fcc;
+    border: 2px solid #fff;
+    font-weight: 600;
 }
 
 #a {
     top: 140px;
-    background-color: #cce2cb;
+    background-color: #87b9c3;
+    border: 2px solid #fff;
+    font-weight: 600;
 }
 
 #h {
     top: 200px;
-    background-color: #b6cfb6;
+    background-color: #c48065;
+    border: 2px solid #fff;
+    font-weight: 600;
 }
 
 #k {
     top: 260px;
-    background-color: #97c1a9;
+    background-color: #e39b70;
+    border: 2px solid #fff;
+    font-weight: 600;
 }
 
 /* * * * * * * * * * icons for toppings and drinks * * * * * * * * * */
@@ -184,7 +197,7 @@ hr.solid {
 
 /* * * * * * * * * * julia persona * * * * * * * * * */
 .julia {
-    background-color: #d4f0f0;
+    background-image: linear-gradient(#d59090, #d07e7e, #d59090);
 }
 
 .julia-content {
@@ -196,30 +209,53 @@ hr.solid {
 .julia .left {
     float: left;
     margin: 10px;
-    border: 3px solid #fff;
+    border: 1px dotted #fff;
     width: 350px;
+    height: 98%;
     padding: 20px;
 }
 
 .julia .center {
     float: left;
     margin: 10px;
-    border: 3px solid #fff;
+    border: 1px dotted #fff;
     width: 490px;
+    height: 98%;
     padding: 20px;
 }
 
 .julia .right {
     float: left;
     margin: 10px;
-    border: 3px solid #fff;
+    border: 1px dotted #fff;
     width: 540px;
+    height: 98%;
     padding: 20px;
+}
+
+.drink_j {
+    width: 90%;
+    background-color: #495942;
+}
+
+.tech_j {
+    width: 40%;
+    background-color: #6e8a61;
+}
+
+.health_j {
+    width: 30%;
+    background-color: #8da183;
+}
+
+.budget_j {
+    width: 50%;
+    background-color: #bcc7b7;
 }
 
 /* * * * * * * * * * steven persona * * * * * * * * * */
 .steven {
-    background-color: #97c1a9;
+    background-image: linear-gradient(#a6b5d6, #8a9fcc, #a6b5d6);
 }
 
 .steven-content {
@@ -231,50 +267,53 @@ hr.solid {
 .steven .left {
     float: left;
     margin: 10px;
-    border: 3px solid #fff;
+    border: 1px dotted #fff;
     width: 350px;
+    height: 98%;
     padding: 20px;
 }
 
 .steven .center {
     float: left;
     margin: 10px;
-    border: 3px solid #fff;
+    border: 1px dotted #fff;
     width: 490px;
+    height: 98%;
     padding: 20px;
 }
 
 .steven .right {
     float: left;
     margin: 10px;
-    border: 3px solid #fff;
+    border: 1px dotted #fff;
     width: 540px;
+    height: 98%;
     padding: 20px;
 }
 
 .drink_s {
     width: 95%;
-    background-color: indianred;
+    background-color: #4d0e16;
 }
 
 .tech_s {
     width: 65%;
-    background-color: darkorange;
+    background-color: #741824;
 }
 
 .health_s {
     width: 70%;
-    background-color: forestgreen;
+    background-color: #a02131;
 }
 
 .budget_s {
     width: 65%;
-    background-color: skyblue;
+    background-color: #e02f46;
 }
 
 /* * * * * * * * * * autumn persona * * * * * * * * * */
 .autumn {
-    background-color: #cce2cb;
+    background-image: linear-gradient(#9bc7d0, #87b9c3, #9bc7d0);
 }
 
 .autumn-content {
@@ -286,60 +325,111 @@ hr.solid {
 .autumn .left {
     float: left;
     margin: 10px;
-    border: 3px solid #fff;
+    border: 1px dotted #fff;
     width: 350px;
+    height: 98%;
     padding: 20px;
 }
 
 .autumn .center {
     float: left;
     margin: 10px;
-    border: 3px solid #fff;
+    border: 1px dotted #fff;
     width: 490px;
+    height: 98%;
     padding: 20px;
 }
 
 .autumn .right {
     float: left;
     margin: 10px;
-    border: 3px solid #fff;
+    border: 1px dotted #fff;
     width: 540px;
+    height: 98%;
     padding: 20px;
 }
 
 .drink_a {
     width: 90%;
-    background-color: indianred;
+    background-color: #4a4438;
 }
 
 .tech_a {
     width: 40%;
-    background-color: darkorange;
+    background-color: #6d6047;
 }
 
 .health_a {
     width: 30%;
-    background-color: forestgreen;
+    background-color: #988256;
 }
 
 .budget_a {
     width: 50%;
-    background-color: skyblue;
+    background-color: #cfae6d;
 }
 
 /* * * * * * * * * * hoang persona * * * * * * * * * */
 .hoang {
-    background-color: #b6cfb6;
+    background-image: linear-gradient(#cc8d76, #c48065, #cc8d76);
 }
 
 .hoang-content {
-    background-color: #b6cfb6;
-    margin: 0px;
+    margin: 20px;
+    align-content: center;
+    text-align: justify;
+}
+
+.hoang .left {
+    float: left;
+    margin: 10px;
+    border: 1px dotted #fff;
+    width: 350px;
+    height: 98%;
+    padding: 20px;
+}
+
+.hoang .center {
+    float: left;
+    margin: 10px;
+    border: 1px dotted #fff;
+    width: 490px;
+    height: 98%;
+    padding: 20px;
+}
+
+.hoang .right {
+    float: left;
+    margin: 10px;
+    border: 1px dotted #fff;
+    width: 540px;
+    height: 98%;
+    padding: 20px;
+}
+
+.drink_h {
+    width: 80%;
+    background-color: #1c333c;
+}
+
+.tech_h {
+    width: 45%;
+    background-color: #31464e;
+}
+
+.health_h {
+    width: 20%;
+    background-color: #5a6e76;
+}
+
+.budget_h {
+    width: 90%;
+    background-color: #a4acaf;
 }
 
 /* * * * * * * * * * kenneth persona * * * * * * * * * */
 .kenneth {
-    background-color: #97c1a9;
+    background-image: linear-gradient(#e7a57d, #e39b70, #e7a57d);
 }
 
 .kenneth-content {
@@ -351,43 +441,46 @@ hr.solid {
 .kenneth .left {
     float: left;
     margin: 10px;
-    border: 3px solid #fff;
+    border: 1px dotted #fff;
     width: 350px;
+    height: 98%;
     padding: 20px;
 }
 
 .kenneth .center {
     float: left;
     margin: 10px;
-    border: 3px solid #fff;
+    border: 1px dotted #fff;
     width: 490px;
+    height: 98%;
     padding: 20px;
 }
 
 .kenneth .right {
     float: left;
     margin: 10px;
-    border: 3px solid #fff;
+    border: 1px dotted #fff;
     width: 540px;
+    height: 98%;
     padding: 20px;
 }
 
 .drink_k {
-    width: 90%;
-    background-color: indianred;
+    width: 80%;
+    background-color: #3f5197;
 }
 
 .tech_k {
-    width: 75%;
-    background-color: darkorange;
+    width: 45%;
+    background-color: #5d6fb6;
 }
 
 .health_k {
-    width: 50%;
-    background-color: forestgreen;
+    width: 20%;
+    background-color: #8696d8;
 }
 
 .budget_k {
-    width: 40%;
-    background-color: skyblue;
+    width: 90%;
+    background-color: #abb8ee;
 }
