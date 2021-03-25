@@ -196,9 +196,9 @@ hr.solid {
 }
 
 .grass {
-  background: url("images/grassjelly.png") 0 0px / 25px 25px no-repeat;
+  background: url("images/grassjelly.png") 2px / 25px 25px no-repeat;
   padding-left: 35px;
-  margin-left: 15px;
+  margin-left: 18px;
   float: left;
 }
 
