@@ -12,7 +12,7 @@ body {
     background-color: #fff;
 }
 
-p {
+.p {
     line-height: 1.0;
     margin-bottom: 35px;
 }
@@ -25,13 +25,17 @@ section {
     display: flex;
 }
 
-img {
+.img {
     border-radius: 50%;
     width: 75%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 20px;
+    background-color: #fff;
+    padding: 4px;
 }
 
 .name {
@@ -136,6 +140,19 @@ hr.solid {
 #k {
     top: 260px;
     background-color: #97c1a9;
+}
+
+/* * * * * * * * * * icons for toppings and drinks * * * * * * * * * */
+.jasmine {
+  background: url("images/jasmine.png") 0 0px / 20px 20px no-repeat;
+  padding-left: 33px;
+  margin-left: 10px;
+}
+
+.crystalboba {
+  background: url("images/boba.png") 0 0px / 18px 18px no-repeat;
+  padding-left: 35px;
+  margin-left: 10px;
 }
 
 /* * * * * * * * * * julia persona * * * * * * * * * */
@@ -261,6 +278,26 @@ hr.solid {
     border: 3px solid #fff;
     width: 540px;
     padding: 20px;
+}
+
+.drink_a {
+    width: 90%;
+    background-color: indianred;
+}
+
+.tech_a {
+    width: 40%;
+    background-color: darkorange;
+}
+
+.health_a {
+    width: 30%;
+    background-color: forestgreen;
+}
+
+.budget_a {
+    width: 50%;
+    background-color: skyblue;
 }
 
 /* * * * * * * * * * hoang persona * * * * * * * * * */
