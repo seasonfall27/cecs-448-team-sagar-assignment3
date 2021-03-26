@@ -166,6 +166,7 @@ hr.solid {
   background: url("images/crystalboba.png") 0 0px / 18px 18px no-repeat;
   padding-left: 35px;
   margin-left: 10px;
+  float: left;
 }
 
 .greentea {
@@ -318,7 +319,7 @@ hr.solid {
 }
 
 .drink_s {
-    width: 95%;
+    width: 55%;
     background-color: #4d0e16;
 }
 
